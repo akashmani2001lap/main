@@ -201,7 +201,6 @@ const multipleMark = (...marks) =>{
 
   }
 
-
   return totalmark;
 }
 
@@ -210,13 +209,53 @@ console.log(multipleMark(65,67,89,78,89))
 
 // Task 14
 
+const findLargest = (...numbers) =>{
 
+  let largest = numbers[0];
+
+  for ( let num of numbers){
+
+    if (num > largest){
+      largest = num;
+    }
+  }
+  return largest;
+
+}
+console.log(findLargest(10, 25, 5, 40, 18));
 
 // Task 15
+const findSmallest  = (...numbers) =>{
+
+  let smallest = numbers[0];
+
+  for (let num of numbers){
+    if(num < smallest){
+      smallest = num;
+    }
+  }
+
+  return smallest;
+
+}
+console.log(findSmallest(10, 25, 5, 40, 18));
+
 
 
 // Task 16
 
+const totalBillAmout = (...productAmount) =>{
 
+  let billAmount = 0;
+
+  for(let amount of productAmount){
+
+    billAmount += amount;
+
+  }
+  return `your total bill Amount is ${billAmount} Rs`;
+
+}
+console.log(totalBillAmout(23,45,56,98,78,78));
 
 
