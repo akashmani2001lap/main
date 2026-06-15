@@ -3,7 +3,7 @@ const Product = ({productName,productPrice,productCategory,productBrand}) => {
   return (
     <>
       <div className="bg-white p-5 rounded-lg shadow-md">
-        <h1 className="text-xl font-bold mb-3">Product Details</h1>
+        <h1 className="text-xl font-bold mb-3  bg-gray-400 p-2 rounded-md">Product Details</h1>
 
             <p>Product Name:{productName}</p>
             <p>Product Price:{productPrice}</p>

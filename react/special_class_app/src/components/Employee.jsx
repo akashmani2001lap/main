@@ -7,7 +7,7 @@ const Employee = ({empDetails}) => {
   return (
     <>
       <div className="bg-white p-5 rounded-lg shadow-md">
-        <h1 className="text-xl font-bold mb-3">Company Dashboard</h1>
+        <h1 className="text-xl font-bold mb-3  bg-gray-400 p-2 rounded-md">Company Dashboard</h1>
 
         <p>Comapany Name: {companyNamenew}</p>
         <p>Employee Name: {employyeName}</p>

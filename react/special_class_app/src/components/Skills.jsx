@@ -7,7 +7,7 @@ const Skills = ({technologies}) => {
   return (
     <>
       <div className="bg-white p-5 rounded-lg shadow-md">
-        <h1 className="text-xl font-bold mb-3">User Skills</h1>
+        <h1 className="text-xl font-bold mb-3  bg-gray-400 p-2 rounded-md ">User Skills</h1>
         {
       technologies.map((e,i)=>(<p key={i} >{e}</p>))
       }

@@ -3,7 +3,7 @@ const EmployeeCard = ({employeeName,employeeID,department,salary,experince}) => 
   return (
     <>
       <div className="bg-white p-5 rounded-lg shadow-md">
-        <h1 className="text-xl font-bold mb-3">Employee Details</h1>
+        <h1 className="text-xl font-bold mb-3  bg-gray-400 p-2 rounded-md">Employee Details</h1>
 
         <p>Employee Name: {employeeName}</p>
         <p>Employee ID: {employeeID}</p>
