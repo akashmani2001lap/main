@@ -37,6 +37,26 @@ const Home = () => {
     navigate('/Navbar')
   }
 
+  const handleClickFormHandling = () =>{
+    navigate('/RegisterNew')
+  }
+
+  const handleClickFormWithProps = () =>{
+    navigate('/LoginForm')
+  }
+
+  const handleClickStudentRegForm = () =>{
+    navigate('/StudentRegistrationForm')
+  }
+
+  const handleClickUseEffect = () =>{
+    navigate('/HomeUseEffect')
+  }
+
+  const handleClickSearch = () =>{
+    navigate('/SearchHome')
+  }
+
  return (
 
   <>
@@ -224,6 +244,124 @@ const Home = () => {
             </button>
           </div>
         </div>
+
+
+
+
+        {/* Home Button Card - 9*/}
+        <div className="w-64 bg-gray-300 rounded-lg shadow-md p-4 hover:shadow-xl transition duration-300 m-8">
+          <h2 className="text-xl font-semibold mb-2 text-center">
+           Day_8 & Day_9 Form Handling
+          </h2>
+
+          <p className="text-gray-600 mb-4 text-center">
+            Card - 9
+          </p>
+
+          <div className="flex justify-center">
+            <button
+              onClick={handleClickFormHandling}
+              className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+            >
+              View Details
+            </button>
+          </div>
+        </div>
+
+
+
+
+
+
+         {/* Home Button Card - 10*/}
+        <div className="w-64 bg-gray-300 rounded-lg shadow-md p-4 hover:shadow-xl transition duration-300 m-8">
+          <h2 className="text-xl font-semibold mb-2 text-center">
+           Day_10 Form Handling with Props
+          </h2>
+
+          <p className="text-gray-600 mb-4 text-center">
+            Card - 10
+          </p>
+
+          <div className="flex justify-center">
+            <button
+              onClick={handleClickFormWithProps}
+              className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+            >
+              View Details
+            </button>
+          </div>
+        </div>
+
+
+
+
+         {/* Home Button Card - 11*/}
+        <div className="w-64 bg-gray-300 rounded-lg shadow-md p-4 hover:shadow-xl transition duration-300 m-8">
+          <h2 className="text-xl font-semibold mb-2 text-center">
+           Day_11 Form Handling with Edit & Delete
+          </h2>
+
+          <p className="text-gray-600 mb-4 text-center">
+            Card - 11
+          </p>
+
+          <div className="flex justify-center">
+            <button
+              onClick={handleClickStudentRegForm}
+              className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+            >
+              View Details
+            </button>
+          </div>
+        </div>
+
+
+
+         {/* Home Button Card - 12*/}
+        <div className="w-64 bg-gray-300 rounded-lg shadow-md p-4 hover:shadow-xl transition duration-300 m-8">
+          <h2 className="text-xl font-semibold mb-2 text-center">
+           Day_12 UseEffect 
+          </h2>
+
+          <p className="text-gray-600 mb-4 text-center">
+            Card - 12
+          </p>
+
+          <div className="flex justify-center">
+            <button
+              onClick={handleClickUseEffect}
+              className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+            >
+              View Details
+            </button>
+          </div>
+        </div>
+
+
+        {/* Home Button Card - 13*/}
+        <div className="w-64 bg-gray-300 rounded-lg shadow-md p-4 hover:shadow-xl transition duration-300 m-8">
+          <h2 className="text-xl font-semibold mb-2 text-center">
+           Day_13 Search Option 
+          </h2>
+
+          <p className="text-gray-600 mb-4 text-center">
+            Card - 13
+          </p>
+
+          <div className="flex justify-center">
+            <button
+              onClick={handleClickSearch}
+              className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+            >
+              View Details
+            </button>
+          </div>
+        </div>
+
+
+
+        
 
 
 
