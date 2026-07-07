@@ -28,6 +28,7 @@ import StudentSearch from "../Components/Day_13/StudentSearch";
 import ProductSearch from "../Components/Day_13/ProductSearch";
 import EmployeeSearch from "../Components/Day_13/EmployeeSearch";
 import FilterFetch from "../Components/Day_15/FilterFetch";
+import UseRef from "../Components/Day_17/UseRef";
 
 
 const AppRoutes = () => {
@@ -68,6 +69,7 @@ const AppRoutes = () => {
         <Route path="/ProductSearch" element={<ProductSearch/>}/>
         <Route path="/EmployeeSearch" element={<EmployeeSearch/>} />
         <Route  path="/FilterFetch" element={<FilterFetch/>}/>
+        <Route path="/UseRef" element={<UseRef/>} />
       </Routes>  
     </>
   );
