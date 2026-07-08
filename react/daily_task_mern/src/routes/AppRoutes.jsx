@@ -29,6 +29,9 @@ import ProductSearch from "../Components/Day_13/ProductSearch";
 import EmployeeSearch from "../Components/Day_13/EmployeeSearch";
 import FilterFetch from "../Components/Day_15/FilterFetch";
 import UseRef from "../Components/Day_17/UseRef";
+import UseContextHome from "../Components/Day_18/UseContextHome";
+import UserDetailsConsumer from "../Components/Day_18/card/UserDetailsConsumer";
+import ProductConsumer from "../Components/Day_18/card/ProductConsumer";
 
 
 const AppRoutes = () => {
@@ -70,6 +73,9 @@ const AppRoutes = () => {
         <Route path="/EmployeeSearch" element={<EmployeeSearch/>} />
         <Route  path="/FilterFetch" element={<FilterFetch/>}/>
         <Route path="/UseRef" element={<UseRef/>} />
+        <Route path="/UseContextHome" element={<UseContextHome/>} />
+        <Route path="/UserDetailsConsumer" element={<UserDetailsConsumer/>} />
+        <Route path="/ProductConsumer" element={<ProductConsumer  />}/>
       </Routes>  
     </>
   );

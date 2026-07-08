@@ -65,6 +65,10 @@ const Home = () => {
     navigate('/UseRef')
   }
 
+  const handleUSeContext = () =>{
+    navigate('/UseContextHome')
+  }
+
  return (
 
   <>
@@ -406,6 +410,28 @@ const Home = () => {
           <div className="flex justify-center">
             <button
               onClick={handleUSeRef}
+              className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+            >
+              View Details
+            </button>
+          </div>
+        </div>
+
+
+
+        {/* Home Button Card - 15*/}
+        <div className="w-64 bg-gray-300 rounded-lg shadow-md p-4 hover:shadow-xl transition duration-300 m-8">
+          <h2 className="text-xl font-semibold mb-2 text-center">
+           Day_18 useRef
+          </h2>
+
+          <p className="text-gray-600 mb-4 text-center">
+            Card - 16
+          </p>
+
+          <div className="flex justify-center">
+            <button
+              onClick={handleUSeContext}
               className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
             >
               View Details
