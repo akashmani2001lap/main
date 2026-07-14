@@ -32,6 +32,9 @@ import UseRef from "../Components/Day_17/UseRef";
 import UseContextHome from "../Components/Day_18/UseContextHome";
 import UserDetailsConsumer from "../Components/Day_18/card/UserDetailsConsumer";
 import ProductConsumer from "../Components/Day_18/card/ProductConsumer";
+import UseMemoHome from "../Components/Day_20/UseMemoHome";
+import ProductListUseMemo from "../Components/Day_20/ProductListUseMemo";
+import StudentPlacement from "../Components/Day_20/StudentPlacement";
 
 
 const AppRoutes = () => {
@@ -76,6 +79,9 @@ const AppRoutes = () => {
         <Route path="/UseContextHome" element={<UseContextHome/>} />
         <Route path="/UserDetailsConsumer" element={<UserDetailsConsumer/>} />
         <Route path="/ProductConsumer" element={<ProductConsumer  />}/>
+        <Route path="/UseMemoHome" element={<UseMemoHome/>}/>
+        <Route path="/ProductListUseMemo" element={<ProductListUseMemo/>} />
+        <Route path="/StudentPlacement" element={<StudentPlacement/>} />
       </Routes>  
     </>
   );

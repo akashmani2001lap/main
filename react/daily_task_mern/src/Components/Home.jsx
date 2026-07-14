@@ -69,6 +69,10 @@ const Home = () => {
     navigate('/UseContextHome')
   }
 
+  const handleusememo = ()=>{
+    navigate('/UseMemoHome')
+  }
+
  return (
 
   <>
@@ -438,6 +442,29 @@ const Home = () => {
             </button>
           </div>
         </div>
+
+
+
+        {/* Home Button Card - 16*/}
+        <div className="w-64 bg-gray-300 rounded-lg shadow-md p-4 hover:shadow-xl transition duration-300 m-8">
+          <h2 className="text-xl font-semibold mb-2 text-center">
+           Day_19 useMemo
+          </h2>
+
+          <p className="text-gray-600 mb-4 text-center">
+            Card - 17
+          </p>
+
+          <div className="flex justify-center">
+            <button
+              onClick={handleusememo}
+              className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+            >
+              View Details
+            </button>
+          </div>
+        </div>
+
 
         
 
